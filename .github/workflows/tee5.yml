@@ -2,8 +2,8 @@ name: Auto Update Zee5 Token
 
 on:
   schedule:
-    - cron: cron: '45 1 * * *' # Every day at 01:45:52 GMT
-  workflow_dispatch:       # Allows manual trigger
+    - cron: '45 1 * * *'  # Every day at 01:45 GMT
+  workflow_dispatch:       # manual trigger
 
 jobs:
   update_zee5:
