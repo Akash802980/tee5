@@ -26,6 +26,8 @@ jobs:
       - name: Run Zee5 Update Script
         run: python t5.py
               - name: Commit & Push changes
+
+       - name: Commit & Push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
